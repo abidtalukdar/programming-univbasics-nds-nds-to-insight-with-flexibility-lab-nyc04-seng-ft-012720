@@ -82,7 +82,7 @@ def gross_per_studio(collection)
   gross_per_studio = {}
   index_num = 0 
   while index_num < collection.length do 
-    
+    gross_per_studio += collection[index_num]
   index_num+=1
   end
   
