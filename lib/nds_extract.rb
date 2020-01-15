@@ -50,11 +50,13 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
 
   director_movies = []
-  director_movies[:movie] = []
-
-
-
-
+  index_num = 0 
+  while index_num < movies_collection.length do 
+    movie = movies_collection[index_num][title]
+    director_movies << movie_with_director_name(name, movie)
+    index_num +=1
+  end  
+  return director_movies
 end
 
 
