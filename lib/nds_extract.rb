@@ -121,7 +121,7 @@ def movies_with_directors_set(source)
       director_movies << movie_with_director_name(name, movie)
       j += 1
     end 
-    i +=1
+    i += 1
   end  
   return director_movies
 end
