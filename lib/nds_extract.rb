@@ -118,7 +118,7 @@ def movies_with_directors_set(source)
     j = 0
     while j < movies_list.length do
       movie = movies_list[j]
-      director_movies << movie_with_director_name(name, movie)
+      director_movies << [movie_with_director_name(name, movie)]
       j += 1
     end 
     i += 1
