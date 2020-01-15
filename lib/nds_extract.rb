@@ -50,8 +50,7 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
 
   director_movies = []
-  director_movies[:director_name] = name
-  director_movies[:movies] = []
+  director_movies[:movie] = []
 
 
 
