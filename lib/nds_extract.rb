@@ -121,18 +121,6 @@ def movies_with_directors_set(source)
   end  
   
   return director_movies
-
-
-
-
-
-
-
-
-
-
-
-
 end
 
 
