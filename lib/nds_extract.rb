@@ -123,7 +123,7 @@ def movies_with_directors_set(source)
     end 
     i += 1
   end  
-   director_movie
+  return director_movies
 end
 
 
