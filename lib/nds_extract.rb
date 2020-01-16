@@ -59,7 +59,6 @@ def movies_with_director_key(name, movies_collection)
   end  
   
   return director_movies
-
 end
 
 
@@ -92,7 +91,6 @@ def gross_per_studio(collection)
   end  
   
   return gross_per_studio
-
 end
 
 
@@ -123,22 +121,9 @@ def movies_with_directors_set(source)
     end 
     i += 1
   end  
+  
   return director_movies
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
